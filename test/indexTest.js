@@ -1,9 +1,10 @@
 const fs = require('fs')
-const path = require('path')
+const path = require('/home/eugenelijondo/phase-1-javascript-variables-lab/index.js')
 
-const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+const js = fs.readFileSync(path.resolve(/home/eugenelijondo/phase-1-javascript-variables-lab, '..', 'index.js'), 'utf-8')
 
 describe('index.js', function () {
+   // there's stuff in here, too
   describe('companyName', function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
